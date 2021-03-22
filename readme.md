@@ -1,6 +1,5 @@
 # Kích hoạt bản quyền window 
 ![](https://user-images.githubusercontent.com/40029631/112023684-0c0c7480-8b66-11eb-80c7-3e34a7d5565b.png )
-![](https://user-images.githubusercontent.com/40029631/112023553-f303c380-8b65-11eb-860f-2c4435d6cf8d.png )
 > Script kích hoạt bản quyền 180 ngày, sau thời gian trên vui lòng kích hoạt lại. 
 > Theo lý thuyết thì đây là key chính chủ microsoft , không bị bắt bản quyền nếu dùng cho công ty.
 ## list version 
@@ -25,3 +24,4 @@
 * kms9.msguides.com
 * https://gist.github.com/mokoshalb/b87326bbb62805e94da72f8d0f73f563
 
+![](https://user-images.githubusercontent.com/40029631/112023553-f303c380-8b65-11eb-860f-2c4435d6cf8d.png )
