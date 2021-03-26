@@ -45,13 +45,21 @@ ECHO 3.Windows 10 Enterprise
 ECHO 4.Windows 10 Enterprise LTSB 2015
 ECHO 5.Windows 10 Enterprise LTSB 2016
 ECHO 6.Windows 10 Enterprise LTSC 2019
-CHOICE /N /C:123456 /M "Chọn version để lụm active (0-6):"%1
+ECHO 7.Gở key
+CHOICE /N /C:1234567 /M "Chọn version để lụm active (0-6):"%1
 if %ERRORLEVEL% GEQ 0 ( 
     if %ERRORLEVEL% LEQ 6 ( call set currentkey=%%list[%ERRORLEVEL%]%% ) else (
     ECHO chọn tùm bậy.
     GOTO exithandle
     )
-) else (
+) else if %ERRORLEVEL% == 7 (
+    cscript slmgr.vbs /ckms >nul
+    cscript slmgr.vbs /cpky >nul
+    ECHO Gở key thành công. !!!
+    timeout /t 3 /nobreak
+EXIT /B 0
+)
+  else (
     ECHO chọn tùm bậy.
     GOTO exithandle
     )
