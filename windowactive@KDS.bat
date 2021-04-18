@@ -21,7 +21,7 @@ timeout /t 3 /nobreak > NUL
 cls
 ECHO Tất cả version bên dưới đều là bản dùng thử 180 ngày.
 ECHO bạn có thể active lại sau khi hết hạn.
-ECHO không bị mic bắt bản quyền đâu nên đừng lo ...
+ECHO chơi hệ cá nhân thôi :))
 @REM window 10 home
 SET list[0]=TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
 @REM window 10 pro
